@@ -785,3 +785,220 @@ x==========x]
 [2024-09-14 17:17:36,859:INFO:_internal:127.0.0.1 - - [14/Sep/2024 17:17:36] "POST /predict HTTP/1.1" 200 -]
 [2024-09-14 17:18:00,303:INFO:_internal:127.0.0.1 - - [14/Sep/2024 17:18:00] "GET /train HTTP/1.1" 200 -]
 [2024-09-14 17:18:00,357:INFO:_internal:127.0.0.1 - - [14/Sep/2024 17:18:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-11-18 21:16:44,048:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.17.42.241:8080]
+[2024-11-18 21:16:44,054:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-11-18 21:16:56,016:INFO:_internal:127.0.0.1 - - [18/Nov/2024 21:16:56] "GET / HTTP/1.1" 200 -]
+[2024-11-18 21:17:04,475:INFO:_internal:127.0.0.1 - - [18/Nov/2024 21:17:04] "GET /train HTTP/1.1" 200 -]
+[2024-11-18 21:17:04,573:INFO:_internal:127.0.0.1 - - [18/Nov/2024 21:17:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-11-18 21:20:02,920:INFO:_internal:127.0.0.1 - - [18/Nov/2024 21:20:02] "GET / HTTP/1.1" 200 -]
+[2024-11-18 21:20:08,107:INFO:_internal:127.0.0.1 - - [18/Nov/2024 21:20:08] "GET /train HTTP/1.1" 200 -]
+[2024-11-18 22:59:11,238:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.16.240.73:8080]
+[2024-11-18 22:59:11,238:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-11-18 22:59:15,654:INFO:_internal:127.0.0.1 - - [18/Nov/2024 22:59:15] "GET / HTTP/1.1" 200 -]
+[2024-11-18 22:59:21,350:INFO:_internal:127.0.0.1 - - [18/Nov/2024 22:59:21] "GET /train HTTP/1.1" 200 -]
+[2024-11-18 22:59:25,392:INFO:_internal:127.0.0.1 - - [18/Nov/2024 22:59:25] "GET / HTTP/1.1" 200 -]
+[2024-11-18 23:01:02,089:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.16.240.73:8080]
+[2024-11-18 23:01:02,090:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-11-18 23:01:04,912:INFO:_internal:127.0.0.1 - - [18/Nov/2024 23:01:04] "GET / HTTP/1.1" 200 -]
+[2024-11-18 23:01:15,879:INFO:main:>>>>>>> stage Data Ingestion stage started <<<<<<<]
+[2024-11-18 23:01:15,889:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-11-18 23:01:15,898:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-11-18 23:01:15,899:INFO:common:created directory at: artifacts]
+[2024-11-18 23:01:15,899:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-11-18 23:01:15,978:ERROR:main:<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'github.com'. (_ssl.c:1000)>]
+Traceback (most recent call last):
+  File "C:\Python312\Lib\urllib\request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Python312\Lib\http\client.py", line 1336, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Python312\Lib\http\client.py", line 1382, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Python312\Lib\http\client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Python312\Lib\http\client.py", line 1091, in _send_output
+    self.send(msg)
+  File "C:\Python312\Lib\http\client.py", line 1035, in send
+    self.connect()
+  File "C:\Python312\Lib\http\client.py", line 1477, in connect
+    self.sock = self._context.wrap_socket(self.sock,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "C:\Python312\Lib\ssl.py", line 1319, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'github.com'. (_ssl.c:1000)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\College\College Lecs\Year 4\Sem 7\Cloud Computing\DA\AS\Chicken-Disease-Classification-main\main.py", line 12, in <module>
+    obj.main()
+  File "D:\College\College Lecs\Year 4\Sem 7\Cloud Computing\DA\AS\Chicken-Disease-Classification-main\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 17, in main
+    data_ingestion.download_file()
+  File "D:\College\College Lecs\Year 4\Sem 7\Cloud Computing\DA\AS\Chicken-Disease-Classification-main\src\cnnClassifier\components\data_ingestion.py", line 17, in download_file
+    filename,headers=request.urlretrieve(
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\urllib\request.py", line 240, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+                            ^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\urllib\request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\urllib\request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Python312\Lib\urllib\request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\urllib\request.py", line 1347, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'github.com'. (_ssl.c:1000)>
+[2024-11-18 23:01:16,366:INFO:_internal:127.0.0.1 - - [18/Nov/2024 23:01:16] "GET /train HTTP/1.1" 200 -]
+[2024-11-18 23:01:20,838:INFO:_internal:127.0.0.1 - - [18/Nov/2024 23:01:20] "GET / HTTP/1.1" 200 -]
+[2024-11-18 23:11:44,108:INFO:stage_01_data_ingestion:>>>>>>> stage Data Ingestion stage started <<<<<<<]
+[2024-11-18 23:11:44,108:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-11-18 23:11:44,109:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-11-18 23:11:44,109:INFO:common:created directory at: artifacts]
+[2024-11-18 23:11:44,109:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-11-18 23:12:10,158:INFO:data_ingestion:artifacts/data_ingestion/data.zip download! with following info: 
+ Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 89E8:32E857:93517:ADCA5:673B7C58
+Accept-Ranges: bytes
+Date: Mon, 18 Nov 2024 17:41:45 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10221-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1731951705.897240,VS0,VE873
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 79dd243101b5e853595a7fcc3117f518e0889e58
+Expires: Mon, 18 Nov 2024 17:46:45 GMT
+Source-Age: 1
+
+]
+[2024-11-18 23:12:10,453:INFO:stage_01_data_ingestion:>>>>>>> stage Data Ingestion stage completed <<<<<<<
+
+x==========x]
+[2024-11-18 23:12:16,747:INFO:stage_02_prepare_base_model:***********************]
+[2024-11-18 23:12:16,747:INFO:stage_02_prepare_base_model:>>>>>>> stage Prepare Base Model started <<<<<<<]
+[2024-11-18 23:12:16,748:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-11-18 23:12:16,749:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-11-18 23:12:16,749:INFO:common:created directory at: artifacts]
+[2024-11-18 23:12:16,750:INFO:common:created directory at: artifacts/prepare_base_model]
+[2024-11-18 23:13:59,483:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-11-18 23:13:59,777:INFO:stage_02_prepare_base_model:>>>>>>> stage Prepare Base Model completed <<<<<<<
+
+x==========x]
+[2024-11-18 23:14:03,457:INFO:stage_03_training:*******************]
+[2024-11-18 23:14:03,458:INFO:stage_03_training:>>>>>> stage Training started <<<<<<]
+[2024-11-18 23:14:03,459:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-11-18 23:14:03,459:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-11-18 23:14:03,460:INFO:common:created directory at: artifacts]
+[2024-11-18 23:14:03,462:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-11-18 23:14:03,462:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-11-18 23:14:03,463:INFO:common:created directory at: artifacts\training]
+[2024-11-18 23:14:15,548:INFO:stage_03_training:>>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-11-18 23:14:19,155:INFO:stage_04_evaluation:*******************]
+[2024-11-18 23:14:19,155:INFO:stage_04_evaluation:>>>>>> stage Evaluation stage started <<<<<<]
+[2024-11-18 23:14:19,156:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-11-18 23:14:19,157:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-11-18 23:14:19,157:INFO:common:created directory at: artifacts]
+[2024-11-18 23:14:22,706:INFO:common:json file saved at: scores.json]
+[2024-11-18 23:14:22,707:INFO:stage_04_evaluation:>>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-11-18 23:31:02,394:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.16.240.73:8080]
+[2024-11-18 23:31:02,395:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-11-18 23:31:06,232:INFO:_internal:127.0.0.1 - - [18/Nov/2024 23:31:06] "GET / HTTP/1.1" 200 -]
+[2024-11-18 23:31:10,263:INFO:_internal:127.0.0.1 - - [18/Nov/2024 23:31:10] "GET /train HTTP/1.1" 200 -]
+[2024-11-18 23:31:10,428:INFO:_internal:127.0.0.1 - - [18/Nov/2024 23:31:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-11-18 23:31:13,455:INFO:_internal:127.0.0.1 - - [18/Nov/2024 23:31:13] "GET / HTTP/1.1" 200 -]
+[2024-11-18 23:32:10,732:INFO:_internal:127.0.0.1 - - [18/Nov/2024 23:32:10] "GET / HTTP/1.1" 200 -]
+[2024-11-18 23:32:13,351:INFO:_internal:127.0.0.1 - - [18/Nov/2024 23:32:13] "GET / HTTP/1.1" 200 -]
+[2024-11-18 23:32:49,968:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.16.240.73:8080]
+[2024-11-18 23:32:49,968:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-11-18 23:33:08,415:INFO:_internal:172.16.240.73 - - [18/Nov/2024 23:33:08] "GET / HTTP/1.1" 200 -]
+[2024-11-18 23:33:12,093:INFO:_internal:172.16.240.73 - - [18/Nov/2024 23:33:12] "GET / HTTP/1.1" 200 -]
+[2024-11-18 23:35:05,777:INFO:_internal:127.0.0.1 - - [18/Nov/2024 23:35:05] "GET / HTTP/1.1" 200 -]
+[2024-11-18 23:35:12,000:INFO:_internal:127.0.0.1 - - [18/Nov/2024 23:35:12] "[33mGET /evaluate HTTP/1.1[0m" 404 -]
+[2024-11-18 23:35:16,588:INFO:_internal:127.0.0.1 - - [18/Nov/2024 23:35:16] "GET /train HTTP/1.1" 200 -]
+[2024-11-18 23:35:20,301:INFO:_internal:127.0.0.1 - - [18/Nov/2024 23:35:20] "GET / HTTP/1.1" 200 -]
+[2024-11-19 00:58:13,575:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.160.154:8080]
+[2024-11-19 00:58:13,575:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-11-19 00:58:15,693:INFO:_internal:127.0.0.1 - - [19/Nov/2024 00:58:15] "GET / HTTP/1.1" 200 -]
+[2024-11-19 00:58:17,888:ERROR:app:Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\Aum\AppData\Roaming\Python\Python312\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aum\AppData\Roaming\Python\Python312\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aum\AppData\Roaming\Python\Python312\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aum\AppData\Roaming\Python\Python312\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aum\AppData\Roaming\Python\Python312\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aum\AppData\Roaming\Python\Python312\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "D:\College\College Lecs\Year 4\Sem 7\Cloud Computing\DA\AS\Chicken-Disease-Classification-main\app.py", line 41, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\College\College Lecs\Year 4\Sem 7\Cloud Computing\DA\AS\Chicken-Disease-Classification-main\src\cnnClassifier\pipeline\predict.py", line 19, in predict
+    test_image = image.load_img(imagename, target_size = (224,224))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aum\AppData\Roaming\Python\Python312\site-packages\keras\src\utils\image_utils.py", line 236, in load_img
+    img = pil_image.open(io.BytesIO(f.read()))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aum\AppData\Roaming\Python\Python312\site-packages\PIL\Image.py", line 3536, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x0000021E6551D4E0>
+[2024-11-19 00:58:18,019:INFO:_internal:127.0.0.1 - - [19/Nov/2024 00:58:18] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-11-19 00:58:19,391:INFO:_internal:127.0.0.1 - - [19/Nov/2024 00:58:19] "GET / HTTP/1.1" 200 -]
+[2024-11-19 00:58:23,177:INFO:_internal:127.0.0.1 - - [19/Nov/2024 00:58:23] "POST /predict HTTP/1.1" 200 -]
+[2024-11-19 00:58:32,520:INFO:_internal:127.0.0.1 - - [19/Nov/2024 00:58:32] "POST /predict HTTP/1.1" 200 -]
