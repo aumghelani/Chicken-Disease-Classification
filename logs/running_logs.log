@@ -1,0 +1,787 @@
+[2024-09-04 23:39:20,029:INFO:main:Welcome to my custom log]
+[2024-09-06 11:59:11,632:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-06 11:59:11,636:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-06 11:59:11,637:INFO:common:created directory at: artifacts]
+[2024-09-06 11:59:11,638:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-09-06 12:04:59,947:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-06 12:04:59,948:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-06 12:04:59,949:INFO:common:created directory at: artifacts]
+[2024-09-06 12:04:59,950:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-09-06 12:08:54,851:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-06 12:08:54,852:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-06 12:08:54,853:INFO:common:created directory at: artifacts]
+[2024-09-06 12:08:54,854:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-09-06 12:09:12,170:INFO:3798909177:artifacts/data_ingestion/data.zip download! with following info: 
+ Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: CB6C:192D66:124719:169EDE:66DAA0EE
+Accept-Ranges: bytes
+Date: Fri, 06 Sep 2024 06:38:54 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10243-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1725604735.817714,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: a3ca1f908d116fe771e01cf2f10c7c406c81843e
+Expires: Fri, 06 Sep 2024 06:43:54 GMT
+Source-Age: 234
+
+]
+[2024-09-07 14:03:11,596:INFO:main:>>>>>>> stage Data Ingestion stage started <<<<<<<]
+[2024-09-07 14:03:11,596:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 14:03:11,596:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 14:03:11,596:INFO:common:created directory at: artifacts]
+[2024-09-07 14:03:11,596:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-09-07 14:03:36,063:INFO:data_ingestion:artifacts/data_ingestion/data.zip download! with following info: 
+ Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: B072:1B510:88193:BA739:66DC0FC8
+Accept-Ranges: bytes
+Date: Sat, 07 Sep 2024 08:33:14 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10250-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1725697993.306833,VS0,VE1055
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 3a89c14892c238afe494af1475bd1c7527d25d36
+Expires: Sat, 07 Sep 2024 08:38:14 GMT
+Source-Age: 1
+
+]
+[2024-09-07 14:03:36,302:INFO:main:>>>>>>> stage Data Ingestion stage completed <<<<<<<
+
+x==========x]
+[2024-09-07 14:49:58,456:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 14:49:58,461:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 14:49:58,461:INFO:common:created directory at: artifacts]
+[2024-09-07 14:49:58,461:INFO:common:created directory at: artifacts/prepare_base_model]
+[2024-09-07 14:51:59,823:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-07 14:54:28,842:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 14:54:28,842:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 14:54:28,847:INFO:common:created directory at: artifacts]
+[2024-09-07 14:54:28,847:INFO:common:created directory at: artifacts/prepare_base_model]
+[2024-09-07 14:54:29,110:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-07 14:54:52,953:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 14:54:52,953:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 14:54:52,953:INFO:common:created directory at: artifacts]
+[2024-09-07 14:54:52,953:INFO:common:created directory at: artifacts/prepare_base_model]
+[2024-09-07 14:54:53,221:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-07 14:57:01,243:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 14:57:01,243:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 14:57:01,243:INFO:common:created directory at: artifacts]
+[2024-09-07 14:57:01,259:INFO:common:created directory at: artifacts/prepare_base_model]
+[2024-09-07 14:57:01,527:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-07 14:57:30,715:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 14:57:30,718:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 14:57:30,718:INFO:common:created directory at: artifacts]
+[2024-09-07 14:57:30,718:INFO:common:created directory at: artifacts/prepare_base_model]
+[2024-09-07 14:57:31,021:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-07 14:58:23,617:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 14:58:23,617:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 14:58:23,617:INFO:common:created directory at: artifacts]
+[2024-09-07 14:58:23,617:INFO:common:created directory at: artifacts/prepare_base_model]
+[2024-09-07 14:58:23,900:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-07 14:58:24,033:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-07 18:41:29,370:INFO:main:>>>>>>> stage Data Ingestion stage started <<<<<<<]
+[2024-09-07 18:41:29,374:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 18:41:29,376:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 18:41:29,378:INFO:common:created directory at: artifacts]
+[2024-09-07 18:41:29,378:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-09-07 18:41:50,691:INFO:data_ingestion:artifacts/data_ingestion/data.zip download! with following info: 
+ Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 1848:18CEB:BA65F:F868F:66DC5102
+Accept-Ranges: bytes
+Date: Sat, 07 Sep 2024 13:11:31 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10235-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1725714690.316302,VS0,VE1235
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 590b32e7b1563fdc9557ecf4d66f9efacbebbb18
+Expires: Sat, 07 Sep 2024 13:16:31 GMT
+Source-Age: 1
+
+]
+[2024-09-07 18:41:50,960:INFO:main:>>>>>>> stage Data Ingestion stage completed <<<<<<<
+
+x==========x]
+[2024-09-07 18:41:50,960:INFO:main:***********************]
+[2024-09-07 18:41:50,960:INFO:main:>>>>>>> stage Prepare Base Model started <<<<<<<]
+[2024-09-07 18:41:50,960:ERROR:main:PrepareBaseModelTrainingPipeline.main() takes 0 positional arguments but 1 was given]
+Traceback (most recent call last):
+  File "D:\Project Codes\Chicken_Disease_Classification\main.py", line 27, in <module>
+    obj.main()
+TypeError: PrepareBaseModelTrainingPipeline.main() takes 0 positional arguments but 1 was given
+[2024-09-07 18:44:56,624:INFO:main:>>>>>>> stage Data Ingestion stage started <<<<<<<]
+[2024-09-07 18:44:56,624:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 18:44:56,640:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 18:44:56,640:INFO:common:created directory at: artifacts]
+[2024-09-07 18:44:56,640:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-09-07 18:44:56,640:INFO:data_ingestion:File already exists of size: ~ 11345 KB]
+[2024-09-07 18:44:56,809:INFO:main:>>>>>>> stage Data Ingestion stage completed <<<<<<<
+
+x==========x]
+[2024-09-07 18:44:56,809:INFO:main:***********************]
+[2024-09-07 18:44:56,809:INFO:main:>>>>>>> stage Prepare Base Model started <<<<<<<]
+[2024-09-07 18:44:56,809:ERROR:main:PrepareBaseModelTrainingPipeline.main() takes 0 positional arguments but 1 was given]
+Traceback (most recent call last):
+  File "D:\Project Codes\Chicken_Disease_Classification\main.py", line 27, in <module>
+    obj.main()
+TypeError: PrepareBaseModelTrainingPipeline.main() takes 0 positional arguments but 1 was given
+[2024-09-07 18:45:43,027:INFO:main:>>>>>>> stage Data Ingestion stage started <<<<<<<]
+[2024-09-07 18:45:43,027:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 18:45:43,027:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 18:45:43,043:INFO:common:created directory at: artifacts]
+[2024-09-07 18:45:43,043:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-09-07 18:45:43,043:INFO:data_ingestion:File already exists of size: ~ 11345 KB]
+[2024-09-07 18:45:43,219:INFO:main:>>>>>>> stage Data Ingestion stage completed <<<<<<<
+
+x==========x]
+[2024-09-07 18:45:43,219:INFO:main:***********************]
+[2024-09-07 18:45:43,219:INFO:main:>>>>>>> stage Prepare Base Model started <<<<<<<]
+[2024-09-07 18:45:43,219:ERROR:main:PrepareBaseModelTrainingPipeline.main() takes 0 positional arguments but 1 was given]
+Traceback (most recent call last):
+  File "D:\Project Codes\Chicken_Disease_Classification\main.py", line 27, in <module>
+    obj.main()
+TypeError: PrepareBaseModelTrainingPipeline.main() takes 0 positional arguments but 1 was given
+[2024-09-07 18:46:49,073:INFO:stage_02_prepare_base_model:***********************]
+[2024-09-07 18:46:49,073:INFO:stage_02_prepare_base_model:>>>>>>> stage Prepare Base Model started <<<<<<<]
+[2024-09-07 18:46:49,089:ERROR:stage_02_prepare_base_model:PrepareBaseModelTrainingPipeline.main() takes 0 positional arguments but 1 was given]
+Traceback (most recent call last):
+  File "d:\Project Codes\Chicken_Disease_Classification\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 25, in <module>
+    obj.main()
+TypeError: PrepareBaseModelTrainingPipeline.main() takes 0 positional arguments but 1 was given
+[2024-09-07 18:48:07,827:INFO:stage_02_prepare_base_model:***********************]
+[2024-09-07 18:48:07,827:INFO:stage_02_prepare_base_model:>>>>>>> stage Prepare Base Model started <<<<<<<]
+[2024-09-07 18:48:07,827:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 18:48:07,842:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 18:48:07,843:INFO:common:created directory at: artifacts]
+[2024-09-07 18:48:07,845:INFO:common:created directory at: artifacts/prepare_base_model]
+[2024-09-07 18:48:08,209:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-07 18:48:08,359:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-07 18:48:08,484:INFO:stage_02_prepare_base_model:>>>>>>> stage Prepare Base Model completed <<<<<<<
+
+x==========x]
+[2024-09-07 18:48:49,502:INFO:main:>>>>>>> stage Data Ingestion stage started <<<<<<<]
+[2024-09-07 18:48:49,510:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 18:48:49,510:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 18:48:49,510:INFO:common:created directory at: artifacts]
+[2024-09-07 18:48:49,510:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-09-07 18:49:06,581:INFO:data_ingestion:artifacts/data_ingestion/data.zip download! with following info: 
+ Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 1848:18CEB:BA65F:F868F:66DC5102
+Accept-Ranges: bytes
+Date: Sat, 07 Sep 2024 13:18:50 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10231-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1725715131.574660,VS0,VE249
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 78eaf00d01ea6f516f122ab097f72d12f4434737
+Expires: Sat, 07 Sep 2024 13:23:50 GMT
+Source-Age: 0
+
+]
+[2024-09-07 18:49:06,787:INFO:main:>>>>>>> stage Data Ingestion stage completed <<<<<<<
+
+x==========x]
+[2024-09-07 18:49:06,787:INFO:main:***********************]
+[2024-09-07 18:49:06,787:INFO:main:>>>>>>> stage Prepare Base Model started <<<<<<<]
+[2024-09-07 18:49:06,803:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 18:49:06,803:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 18:49:06,803:INFO:common:created directory at: artifacts]
+[2024-09-07 18:49:06,803:INFO:common:created directory at: artifacts/prepare_base_model]
+[2024-09-07 18:49:07,121:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-07 18:49:07,251:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-07 18:49:07,326:INFO:main:>>>>>>> stage Prepare Base Model completed <<<<<<<
+
+x==========x]
+[2024-09-07 19:06:58,631:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 19:06:58,636:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 19:06:58,636:INFO:common:created directory at: artifacts]
+[2024-09-07 19:08:11,865:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 19:08:11,865:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 19:08:11,869:INFO:common:created directory at: artifacts]
+[2024-09-07 19:09:13,104:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 19:09:13,104:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 19:09:13,104:INFO:common:created directory at: artifacts]
+[2024-09-07 19:09:13,112:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 19:09:13,112:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 19:10:06,216:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 19:10:06,216:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 19:10:06,216:INFO:common:created directory at: artifacts]
+[2024-09-07 19:10:06,223:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 19:10:06,224:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 19:10:17,680:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 19:10:17,680:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 19:10:17,680:INFO:common:created directory at: artifacts]
+[2024-09-07 19:10:17,685:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 19:10:17,687:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 19:10:40,901:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 19:10:40,909:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 19:10:40,909:INFO:common:created directory at: artifacts]
+[2024-09-07 19:10:40,909:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 19:10:40,909:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 19:11:34,716:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 19:11:34,716:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 19:11:34,716:INFO:common:created directory at: artifacts]
+[2024-09-07 19:11:34,725:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 19:11:34,725:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 19:12:16,049:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 19:12:16,049:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 19:12:16,049:INFO:common:created directory at: artifacts]
+[2024-09-07 19:12:16,057:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 19:12:16,057:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 19:36:51,475:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 19:36:51,479:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 19:36:51,479:INFO:common:created directory at: artifacts]
+[2024-09-07 19:36:51,479:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 19:36:51,479:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 19:36:51,487:INFO:common:created directory at: artifacts\training]
+[2024-09-07 22:41:52,054:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 22:41:52,054:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 22:41:52,065:INFO:common:created directory at: artifacts]
+[2024-09-07 22:41:52,065:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 22:41:52,065:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 22:41:52,065:INFO:common:created directory at: artifacts\training]
+[2024-09-07 22:44:51,491:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 22:44:51,491:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 22:44:51,491:INFO:common:created directory at: artifacts]
+[2024-09-07 22:44:51,491:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 22:44:51,499:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 22:44:51,499:INFO:common:created directory at: artifacts\training]
+[2024-09-07 22:44:51,769:WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-07 22:46:42,272:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 22:46:42,275:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 22:46:42,275:INFO:common:created directory at: artifacts]
+[2024-09-07 22:46:42,275:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 22:46:42,282:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 22:46:42,283:INFO:common:created directory at: artifacts\training]
+[2024-09-07 22:46:42,522:WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-07 22:47:14,059:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 22:47:14,059:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 22:47:14,074:INFO:common:created directory at: artifacts]
+[2024-09-07 22:47:14,074:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 22:47:14,074:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 22:47:14,078:INFO:common:created directory at: artifacts\training]
+[2024-09-07 22:47:14,276:WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-07 22:49:24,276:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 22:49:24,284:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 22:49:24,284:INFO:common:created directory at: artifacts]
+[2024-09-07 22:49:24,284:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 22:49:24,284:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 22:49:24,292:INFO:common:created directory at: artifacts\training]
+[2024-09-07 22:49:24,461:WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-07 22:50:27,977:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 22:50:27,977:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 22:50:27,989:INFO:common:created directory at: artifacts]
+[2024-09-07 22:50:27,990:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 22:50:27,990:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 22:50:27,993:INFO:common:created directory at: artifacts\training]
+[2024-09-07 22:50:28,258:WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-07 22:53:07,132:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 22:53:07,133:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 22:53:07,133:INFO:common:created directory at: artifacts]
+[2024-09-07 22:53:07,133:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 22:53:07,139:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 22:53:07,140:INFO:common:created directory at: artifacts\training]
+[2024-09-07 22:53:07,334:WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-07 22:53:46,941:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-07 22:57:20,231:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 22:57:20,231:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 22:57:20,238:INFO:common:created directory at: artifacts]
+[2024-09-07 22:57:20,238:INFO:common:created directory at: artifacts/prepare_base_model]
+[2024-09-07 22:57:20,658:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-07 22:57:20,806:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-07 22:57:52,835:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 22:57:52,835:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 22:57:52,835:INFO:common:created directory at: artifacts]
+[2024-09-07 22:57:52,835:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 22:57:52,843:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 22:57:52,844:INFO:common:created directory at: artifacts\training]
+[2024-09-07 22:57:53,012:WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-07 22:58:52,555:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 22:58:52,555:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 22:58:52,555:INFO:common:created directory at: artifacts]
+[2024-09-07 22:58:52,555:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 22:58:52,555:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 22:58:52,555:INFO:common:created directory at: artifacts\training]
+[2024-09-07 22:58:52,740:WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-07 22:59:32,301:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-07 23:01:55,320:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 23:01:55,320:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 23:01:55,320:INFO:common:created directory at: artifacts]
+[2024-09-07 23:01:55,320:INFO:common:created directory at: artifacts/prepare_base_model]
+[2024-09-07 23:01:55,660:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-07 23:02:39,758:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 23:02:39,758:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 23:02:39,758:INFO:common:created directory at: artifacts]
+[2024-09-07 23:02:39,758:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 23:02:39,764:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 23:02:39,765:INFO:common:created directory at: artifacts\training]
+[2024-09-07 23:03:13,653:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 23:03:13,653:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 23:03:13,661:INFO:common:created directory at: artifacts]
+[2024-09-07 23:03:13,661:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 23:03:13,665:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 23:03:13,665:INFO:common:created directory at: artifacts\training]
+[2024-09-07 23:03:22,573:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-07 23:04:03,093:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-07 23:04:37,785:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 23:04:37,785:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 23:04:37,785:INFO:common:created directory at: artifacts]
+[2024-09-07 23:04:37,785:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 23:04:37,785:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 23:04:37,797:INFO:common:created directory at: artifacts\training]
+[2024-09-07 23:25:58,683:INFO:main:>>>>>>> stage Data Ingestion stage started <<<<<<<]
+[2024-09-07 23:25:58,688:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 23:25:58,693:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 23:25:58,693:INFO:common:created directory at: artifacts]
+[2024-09-07 23:25:58,693:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-09-07 23:26:21,813:INFO:data_ingestion:artifacts/data_ingestion/data.zip download! with following info: 
+ Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: CDDD:193CB4:2CDAEA:37D265:66DC93AE
+Accept-Ranges: bytes
+Date: Sat, 07 Sep 2024 17:56:01 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10222-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1725731760.330460,VS0,VE938
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 71f6f099e20ad71eb942843728a5abdfc55aa81e
+Expires: Sat, 07 Sep 2024 18:01:01 GMT
+Source-Age: 1
+
+]
+[2024-09-07 23:26:22,043:INFO:main:>>>>>>> stage Data Ingestion stage completed <<<<<<<
+
+x==========x]
+[2024-09-07 23:26:22,043:INFO:main:***********************]
+[2024-09-07 23:26:22,043:INFO:main:>>>>>>> stage Prepare Base Model started <<<<<<<]
+[2024-09-07 23:26:22,054:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 23:26:22,057:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 23:26:22,058:INFO:common:created directory at: artifacts]
+[2024-09-07 23:26:22,058:INFO:common:created directory at: artifacts/prepare_base_model]
+[2024-09-07 23:26:22,453:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-07 23:26:22,863:INFO:main:>>>>>>> stage Prepare Base Model completed <<<<<<<
+
+x==========x]
+[2024-09-07 23:26:22,863:INFO:main:*******************]
+[2024-09-07 23:26:22,863:INFO:main:>>>>>> stage Training started <<<<<<]
+[2024-09-07 23:26:22,863:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 23:26:22,863:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 23:26:22,863:INFO:common:created directory at: artifacts]
+[2024-09-07 23:26:22,873:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 23:26:22,873:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 23:26:22,874:INFO:common:created directory at: artifacts\training]
+[2024-09-07 23:27:06,274:INFO:main:>>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-09-07 23:34:54,594:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 23:34:54,596:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 23:34:54,597:INFO:common:created directory at: artifacts]
+[2024-09-07 23:35:20,190:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 23:35:20,191:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 23:35:20,192:INFO:common:created directory at: artifacts]
+[2024-09-07 23:35:28,002:INFO:common:json file saved at: scores.json]
+[2024-09-07 23:46:36,325:INFO:main:>>>>>>> stage Data Ingestion stage started <<<<<<<]
+[2024-09-07 23:46:36,327:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 23:46:36,328:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 23:46:36,329:INFO:common:created directory at: artifacts]
+[2024-09-07 23:46:36,329:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-09-07 23:47:00,285:INFO:data_ingestion:artifacts/data_ingestion/data.zip download! with following info: 
+ Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: CDDD:193CB4:2CDAEA:37D265:66DC93AE
+Accept-Ranges: bytes
+Date: Sat, 07 Sep 2024 18:16:37 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10231-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1725732998.629985,VS0,VE255
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: c11f500a906f89c3dd4ddafc903294fa0d084bd2
+Expires: Sat, 07 Sep 2024 18:21:37 GMT
+Source-Age: 0
+
+]
+[2024-09-07 23:47:00,437:INFO:main:>>>>>>> stage Data Ingestion stage completed <<<<<<<
+
+x==========x]
+[2024-09-07 23:47:00,437:INFO:main:***********************]
+[2024-09-07 23:47:00,437:INFO:main:>>>>>>> stage Prepare Base Model started <<<<<<<]
+[2024-09-07 23:47:00,439:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 23:47:00,440:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 23:47:00,440:INFO:common:created directory at: artifacts]
+[2024-09-07 23:47:00,440:INFO:common:created directory at: artifacts/prepare_base_model]
+[2024-09-07 23:47:00,722:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-07 23:47:01,121:INFO:main:>>>>>>> stage Prepare Base Model completed <<<<<<<
+
+x==========x]
+[2024-09-07 23:47:01,122:INFO:main:*******************]
+[2024-09-07 23:47:01,122:INFO:main:>>>>>> stage Training started <<<<<<]
+[2024-09-07 23:47:01,124:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 23:47:01,126:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 23:47:01,126:INFO:common:created directory at: artifacts]
+[2024-09-07 23:47:01,128:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 23:47:01,128:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 23:47:01,129:INFO:common:created directory at: artifacts\training]
+[2024-09-07 23:47:25,869:INFO:main:>>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-09-07 23:47:25,869:INFO:main:*******************]
+[2024-09-07 23:47:25,870:INFO:main:>>>>>> stage Evaluation started <<<<<<]
+[2024-09-07 23:47:25,871:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 23:47:25,872:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 23:47:25,872:INFO:common:created directory at: artifacts]
+[2024-09-07 23:47:33,775:INFO:common:json file saved at: scores.json]
+[2024-09-07 23:47:33,777:INFO:main:>>>>>> stage Evaluation completed <<<<<<
+
+x==========x]
+[2024-09-07 23:54:38,635:INFO:stage_01_data_ingestion:>>>>>>> stage Data Ingestion stage started <<<<<<<]
+[2024-09-07 23:54:38,637:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 23:54:38,638:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 23:54:38,639:INFO:common:created directory at: artifacts]
+[2024-09-07 23:54:38,639:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-09-07 23:54:59,876:INFO:data_ingestion:artifacts/data_ingestion/data.zip download! with following info: 
+ Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: CDDD:193CB4:2CDAEA:37D265:66DC93AE
+Accept-Ranges: bytes
+Date: Sat, 07 Sep 2024 18:24:40 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10224-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1725733480.942272,VS0,VE311
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 38283b87933374d21cedbfed8dbbb7673c577f3c
+Expires: Sat, 07 Sep 2024 18:29:40 GMT
+Source-Age: 0
+
+]
+[2024-09-07 23:55:00,032:INFO:stage_01_data_ingestion:>>>>>>> stage Data Ingestion stage completed <<<<<<<
+
+x==========x]
+[2024-09-07 23:57:12,313:INFO:stage_01_data_ingestion:>>>>>>> stage Data Ingestion stage started <<<<<<<]
+[2024-09-07 23:57:12,314:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 23:57:12,315:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 23:57:12,316:INFO:common:created directory at: artifacts]
+[2024-09-07 23:57:12,316:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-09-07 23:57:12,316:INFO:data_ingestion:File already exists of size: ~ 11345 KB]
+[2024-09-07 23:57:12,458:INFO:stage_01_data_ingestion:>>>>>>> stage Data Ingestion stage completed <<<<<<<
+
+x==========x]
+[2024-09-07 23:57:26,736:INFO:stage_02_prepare_base_model:***********************]
+[2024-09-07 23:57:26,737:INFO:stage_02_prepare_base_model:>>>>>>> stage Prepare Base Model started <<<<<<<]
+[2024-09-07 23:57:26,739:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 23:57:26,740:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 23:57:26,740:INFO:common:created directory at: artifacts]
+[2024-09-07 23:57:26,741:INFO:common:created directory at: artifacts/prepare_base_model]
+[2024-09-07 23:57:27,032:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-07 23:57:27,451:INFO:stage_02_prepare_base_model:>>>>>>> stage Prepare Base Model completed <<<<<<<
+
+x==========x]
+[2024-09-07 23:57:42,052:INFO:stage_03_training:*******************]
+[2024-09-07 23:57:42,053:INFO:stage_03_training:>>>>>> stage Training started <<<<<<]
+[2024-09-07 23:57:42,055:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 23:57:42,056:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 23:57:42,056:INFO:common:created directory at: artifacts]
+[2024-09-07 23:57:42,056:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 23:57:42,058:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 23:57:42,058:INFO:common:created directory at: artifacts\training]
+[2024-09-07 23:58:08,262:INFO:stage_03_training:>>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-09-07 23:58:51,294:INFO:stage_03_training:*******************]
+[2024-09-07 23:58:51,294:INFO:stage_03_training:>>>>>> stage Training started <<<<<<]
+[2024-09-07 23:58:51,296:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 23:58:51,298:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 23:58:51,298:INFO:common:created directory at: artifacts]
+[2024-09-07 23:58:51,298:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 23:58:51,299:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 23:58:51,299:INFO:common:created directory at: artifacts\training]
+[2024-09-07 23:59:16,950:INFO:stage_03_training:>>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-09-07 23:59:31,289:INFO:stage_04_evaluation:*******************]
+[2024-09-07 23:59:31,289:INFO:stage_04_evaluation:>>>>>> stage Evaluation stage started <<<<<<]
+[2024-09-07 23:59:31,293:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 23:59:31,294:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 23:59:31,294:INFO:common:created directory at: artifacts]
+[2024-09-07 23:59:39,101:INFO:common:json file saved at: scores.json]
+[2024-09-07 23:59:39,101:INFO:stage_04_evaluation:>>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-09-08 00:11:01,408:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.17.42.156:80]
+[2024-09-08 00:11:01,408:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-09-08 00:11:15,217:INFO:_internal:127.0.0.1 - - [08/Sep/2024 00:11:15] "GET / HTTP/1.1" 200 -]
+[2024-09-08 00:11:56,941:ERROR:app:Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "D:\Project Codes\Chicken_Disease_Classification\app.py", line 41, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\project codes\chicken_disease_classification\src\cnnClassifier\pipeline\predict.py", line 16, in predict
+    model = load_model(os.path.join("artifacts","training", "model.h5"))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\keras\src\saving\saving_api.py", line 194, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\keras\src\legacy\saving\legacy_h5_format.py", line 116, in load_model_from_hdf5
+    f = h5py.File(filepath, mode="r")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\h5py\_hl\files.py", line 562, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\h5py\_hl\files.py", line 235, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "h5py\\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py\\h5f.pyx", line 102, in h5py.h5f.open
+FileNotFoundError: [Errno 2] Unable to synchronously open file (unable to open file: name = 'artifacts\training\model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2024-09-08 00:11:56,948:INFO:_internal:127.0.0.1 - - [08/Sep/2024 00:11:56] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-09-08 00:13:14,176:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.17.42.156:80]
+[2024-09-08 00:13:14,176:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-09-08 00:13:19,625:INFO:_internal:127.0.0.1 - - [08/Sep/2024 00:13:19] "GET / HTTP/1.1" 200 -]
+[2024-09-08 00:13:24,834:INFO:_internal:127.0.0.1 - - [08/Sep/2024 00:13:24] "POST /predict HTTP/1.1" 200 -]
+[2024-09-08 17:50:57,374:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.17.42.156:8080]
+[2024-09-08 17:50:57,374:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-09-08 17:51:05,993:INFO:_internal:172.17.42.156 - - [08/Sep/2024 17:51:05] "GET / HTTP/1.1" 200 -]
+[2024-09-08 17:51:18,038:INFO:_internal:172.17.42.156 - - [08/Sep/2024 17:51:18] "POST /predict HTTP/1.1" 200 -]
+[2024-09-08 17:56:36,473:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.17.42.156:8080]
+[2024-09-08 17:56:36,473:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-09-08 17:56:39,629:INFO:_internal:172.17.42.156 - - [08/Sep/2024 17:56:39] "GET / HTTP/1.1" 200 -]
+[2024-09-08 17:56:44,406:INFO:_internal:127.0.0.1 - - [08/Sep/2024 17:56:44] "OPTIONS /predict HTTP/1.1" 200 -]
+[2024-09-08 17:56:45,108:INFO:_internal:127.0.0.1 - - [08/Sep/2024 17:56:45] "POST /predict HTTP/1.1" 200 -]
+[2024-09-08 19:28:30,328:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.17.42.156:8080]
+[2024-09-08 19:28:30,330:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-09-08 19:29:44,366:INFO:_internal:127.0.0.1 - - [08/Sep/2024 19:29:44] "GET / HTTP/1.1" 200 -]
+[2024-09-08 19:29:46,157:INFO:_internal:127.0.0.1 - - [08/Sep/2024 19:29:46] "OPTIONS /predict HTTP/1.1" 200 -]
+[2024-09-08 19:29:46,809:ERROR:app:Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "D:\Project Codes\Chicken_Disease_Classification\app.py", line 41, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\project codes\chicken_disease_classification\src\cnnClassifier\pipeline\predict.py", line 19, in predict
+    test_image = image.load_img(imagename, target_size = (224,224))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\keras\src\utils\image_utils.py", line 236, in load_img
+    img = pil_image.open(io.BytesIO(f.read()))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\PIL\Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x000002BB1147A9D0>
+[2024-09-08 19:29:46,816:INFO:_internal:127.0.0.1 - - [08/Sep/2024 19:29:46] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-09-08 19:29:50,444:INFO:_internal:127.0.0.1 - - [08/Sep/2024 19:29:50] "GET / HTTP/1.1" 200 -]
+[2024-09-08 19:29:55,264:INFO:_internal:127.0.0.1 - - [08/Sep/2024 19:29:55] "OPTIONS /predict HTTP/1.1" 200 -]
+[2024-09-08 19:29:55,930:INFO:_internal:127.0.0.1 - - [08/Sep/2024 19:29:55] "POST /predict HTTP/1.1" 200 -]
+[2024-09-08 19:30:24,852:INFO:_internal:127.0.0.1 - - [08/Sep/2024 19:30:24] "OPTIONS /predict HTTP/1.1" 200 -]
+[2024-09-08 19:30:25,486:INFO:_internal:127.0.0.1 - - [08/Sep/2024 19:30:25] "POST /predict HTTP/1.1" 200 -]
+[2024-09-08 22:08:33,859:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.17.42.156:8080]
+[2024-09-08 22:08:33,859:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-09-08 22:08:48,130:INFO:_internal:127.0.0.1 - - [08/Sep/2024 22:08:48] "GET / HTTP/1.1" 200 -]
+[2024-09-08 22:09:38,789:INFO:_internal:127.0.0.1 - - [08/Sep/2024 22:09:38] "GET / HTTP/1.1" 200 -]
+[2024-09-08 22:10:13,911:INFO:_internal:127.0.0.1 - - [08/Sep/2024 22:10:13] "GET / HTTP/1.1" 200 -]
+[2024-09-08 22:10:49,809:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.17.42.156:8080]
+[2024-09-08 22:10:49,809:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-09-08 22:10:49,894:INFO:_internal:127.0.0.1 - - [08/Sep/2024 22:10:49] "GET / HTTP/1.1" 200 -]
+[2024-09-08 22:10:51,599:INFO:_internal:127.0.0.1 - - [08/Sep/2024 22:10:51] "GET / HTTP/1.1" 200 -]
+[2024-09-08 22:10:53,569:INFO:_internal:127.0.0.1 - - [08/Sep/2024 22:10:53] "GET / HTTP/1.1" 200 -]
+[2024-09-08 22:10:58,699:INFO:_internal:127.0.0.1 - - [08/Sep/2024 22:10:58] "OPTIONS /predict HTTP/1.1" 200 -]
+[2024-09-08 22:10:59,558:INFO:_internal:127.0.0.1 - - [08/Sep/2024 22:10:59] "POST /predict HTTP/1.1" 200 -]
+[2024-09-09 21:28:46,313:INFO:main:>>>>>>> stage Data Ingestion stage started <<<<<<<]
+[2024-09-09 21:28:46,315:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-09 21:28:46,317:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-09 21:28:46,318:INFO:common:created directory at: artifacts]
+[2024-09-09 21:28:46,318:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-09-09 21:28:46,318:INFO:data_ingestion:File already exists of size: ~ 11345 KB]
+[2024-09-09 21:28:46,467:INFO:main:>>>>>>> stage Data Ingestion stage completed <<<<<<<
+
+x==========x]
+[2024-09-09 21:28:46,468:INFO:main:***********************]
+[2024-09-09 21:28:46,468:INFO:main:>>>>>>> stage Prepare Base Model started <<<<<<<]
+[2024-09-09 21:28:46,469:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-09 21:28:46,471:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-09 21:28:46,471:INFO:common:created directory at: artifacts]
+[2024-09-09 21:28:46,471:INFO:common:created directory at: artifacts/prepare_base_model]
+[2024-09-09 21:28:46,819:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-09 21:28:47,265:INFO:main:>>>>>>> stage Prepare Base Model completed <<<<<<<
+
+x==========x]
+[2024-09-09 21:28:47,265:INFO:main:*******************]
+[2024-09-09 21:28:47,265:INFO:main:>>>>>> stage Training started <<<<<<]
+[2024-09-09 21:28:47,267:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-09 21:28:47,268:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-09 21:28:47,269:INFO:common:created directory at: artifacts]
+[2024-09-09 21:28:47,269:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-09 21:28:47,269:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-09 21:28:47,269:INFO:common:created directory at: artifacts\training]
+[2024-09-09 21:29:14,639:INFO:main:>>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-09-09 21:29:14,640:INFO:main:*******************]
+[2024-09-09 21:29:14,640:INFO:main:>>>>>> stage Evaluation started <<<<<<]
+[2024-09-09 21:29:14,642:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-09 21:29:14,643:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-09 21:29:14,643:INFO:common:created directory at: artifacts]
+[2024-09-09 21:29:22,352:INFO:common:json file saved at: scores.json]
+[2024-09-09 21:29:22,353:INFO:main:>>>>>> stage Evaluation completed <<<<<<
+
+x==========x]
+[2024-09-09 21:30:17,773:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.17.42.156:8080]
+[2024-09-09 21:30:17,773:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-09-09 21:33:59,476:INFO:_internal:127.0.0.1 - - [09/Sep/2024 21:33:59] "GET / HTTP/1.1" 200 -]
+[2024-09-09 21:34:14,253:INFO:_internal:127.0.0.1 - - [09/Sep/2024 21:34:14] "OPTIONS /predict HTTP/1.1" 200 -]
+[2024-09-09 21:34:15,008:INFO:_internal:127.0.0.1 - - [09/Sep/2024 21:34:15] "POST /predict HTTP/1.1" 200 -]
+[2024-09-14 17:16:58,309:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.17.42.156:8080]
+[2024-09-14 17:16:58,310:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-09-14 17:17:00,710:INFO:_internal:127.0.0.1 - - [14/Sep/2024 17:17:00] "GET / HTTP/1.1" 200 -]
+[2024-09-14 17:17:22,093:INFO:_internal:127.0.0.1 - - [14/Sep/2024 17:17:22] "OPTIONS /predict HTTP/1.1" 200 -]
+[2024-09-14 17:17:22,813:INFO:_internal:127.0.0.1 - - [14/Sep/2024 17:17:22] "POST /predict HTTP/1.1" 200 -]
+[2024-09-14 17:17:36,221:INFO:_internal:127.0.0.1 - - [14/Sep/2024 17:17:36] "OPTIONS /predict HTTP/1.1" 200 -]
+[2024-09-14 17:17:36,859:INFO:_internal:127.0.0.1 - - [14/Sep/2024 17:17:36] "POST /predict HTTP/1.1" 200 -]
+[2024-09-14 17:18:00,303:INFO:_internal:127.0.0.1 - - [14/Sep/2024 17:18:00] "GET /train HTTP/1.1" 200 -]
+[2024-09-14 17:18:00,357:INFO:_internal:127.0.0.1 - - [14/Sep/2024 17:18:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
